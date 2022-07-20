@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hendra Cahyo Setiawan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="g/dikti.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+
+
+
+
+
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li>
+                            <a href="#" class="nav-link px-2 text-secondary"></a>
+                        </li>
+
+                        <li><a href="#home" class="nav-link px-2 text-white">Home</a></li>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <p style="color: white;">Program Belajar</p>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#py">Python</a></li>
+                            <li><a class="dropdown-item" href="#js">Java Scrip</a></li>
+                            <li><a class="dropdown-item" href="#android">Android Developer</a></li>
+                        </ul>
+                        <li><a href="#layanan" class="nav-link px-2 text-white">layanan</a></li>
+                        <li><a href="#tes" class="nav-link px-2 text-white">Testimoni</a></li>
+                        <li><a href="#a" class="nav-link px-2 text-white" data-toggle="modal" data-target="#mydaftar">About</a></li>
+                        <li><a href="#penulis" class="nav-link px-2 text-white" data-toggle="modal" data-target="#mydaftar">Penulis</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+                    </form>
+
+                    <div class="text-end">
+                        <button type="button" class="btn btn-outline-light me-2"></span>Login</button>
+                        <button type="button" class="btn btn-warning">Sign-up</button>
+                    </div>
+
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="g/python.png" alt="First slide" width="100px" height="350px">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Python</h1>
+                        <p style="color: white;">Python merupakan bahasa peremograman yang lagi booming sekarang</p>
+                        <p><a class="btn btn-lg btn-primary">Daftarkan diri anda sekarang</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="g/KRwfMz3.png" alt="Third slide" width="100px" height="350px">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h5 style="color:black;">Java Script</h5>
+                        <p style="color:black;">Mari belajar Js yang sekang sangat berguna untuk back-end Developer</p>
+                        <p><a class="btn btn-lg btn-primary">Lanjut Belajar</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+                <img class="d-block w-100" src="g/awesome-android-wallpaper-43630-44696-hd-wallpapers.jpg" alt="Second slide" width="100px" height="350px">
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>Android</h1>
+                        <p style="color: white;">Android developer merupakan salah satu pekerjaan yang merupakan salah satu bayaran yang lumayan tinggi</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <header class="p-3 bg-dark text-white">
+        <div>
+            <h4 style="text-align:center" id="home">Kenapa anda harus belajar programer disini</h4>
+
+            <br>
+            <p style="text-align:center">Saatnya bijak memilih sumber belajar. Tak hanya materi yang terjamin,</p>
+            <p style="text-align:center">platform kami juga memiliki reviewer profesional yang akan mengulas kode Anda dan membantu anda dalam mencari lapangan kerja.</p>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Kurikulum standar industri global
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="media">
+                                <img class="mr-3" src="g/feature-1-kurikulum-global-3.png" alt="Generic placeholder image" width="150px" height="100px">
+                                <div class="media-body">
+                                    <h5 class="mt-0" style="color: black;">Standar global</h5>
+                                    <p style="color: black;">Dalam pembelajaran di platform kami yaitu menggunakan standar pembelajaran global dantelah tersertifikasi oleh standar global serta dalam tahapan pembelajaran yaitu menggunakan kurikulum global sehingga jangan kawatir
+                                        ilmu yang kalian pelajari di platform kami akan bisa digunakan baik dalam nebgi maupun luar negri.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Belajar fleksibel sesuai jadwal Anda
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="media">
+                                <img class="mr-3" src="g/fleksibel.jpg" alt="Generic placeholder image" width="130px" height="100px">
+                                <div class="media-body">
+                                    <h5 class="mt-0" style="color: black;">Kenyaman Dalam Belajar</h5>
+                                    <p style="color: black;">Belajar kapan pun, di mana pun, secara mandiri. Bebas memilih kelas sesuai minat belajar. Akses seumur hidup ke kelas dan forum diskusi setelah lulus.dalam platfom kami yaitu sangat cocok juga digunakan bukan hanya
+                                        pada kalangan mahasiswa saja tetapi juga kalangan pekerja yang ingin mengembangkan keahlianya dibidang IT</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Alumni terpercaya di berbagai perusahaan
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="media">
+                                <img class="mr-3" src="g/kerja.jpg" alt="Generic placeholder image" width="130px" height="100px">
+                                <div class="media-body">
+                                    <h5 class="mt-0" style="color: black;">Jaminan Kerja</h5>
+                                    <p style="color: black;">Sertifikat yang membuktikan pengetahuan fundamental beserta keterampilan nyata yang diinginkan perusahaan global.serta banyaknya alumi diri platfom kami yang sudah bekerja dalam perusahaan yang terkemuka baik skala
+                                        Nasional dan Internasional</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <header id="home-section">
+            <div class="dark-overlay">
+                <div class="home-inenr">
+                    <div class="container">
+                        <h1 id="Register"></h1>
+                        <div class="row">
+                            <div class="col-lg-8 d-none d-lg-block">
+                                <h2>Sekilas tentang Programer </h2>
+                                <div class="d-flex flex-row">
+
+                                    <div class="p-4 align-self-end">
+                                        <p>Menjadi seorang Programmer tentunya bukan hal yang mudah. Semua butuh perjuangan dan pendidikan yang harus dijalani dengan serius. Tak heran jika kuliah di jurusan programmer adalah pilihan yang menarik untuk dpilih.
+                                            Setiap tahunnya, peminat di jurusan yang satu ini semakin tinggi. Pasalnya, di masa depan, prospek kerja atau jenjang karir menjadi seorang Programmer ini juga tidaklah main-main. Tentu membutuhkan upaya dan
+                                            juga perjuangan yang cukup signifikan untuk bisa sukses dalam bidang yang satu ini.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+
+                                    <div class="p-4 align-self-end">
+                                        <p>Menjadi seorang Programmer akan bisa meningkatkan kemampuan di bidang komputerisasi. Ini tentuanaya adalah sebuah hal yang sangat penting. Kemampuan untuk mengembangkan ilmu komputerisasi bukanlah hal yang mudah
+                                            dilakukan. Akan tetapi, pengembangan tersebut bersifat tak terbatas sehingga kamu bisa selalu belajar banyak hal baru setiap harinya. Hal inilah yang akan menjadikan profesi ini terlihat begitu keren. Dalam
+                                            tahap lanjutan, kamu akan bisa menjadi seorang pakar komputer yang nantinya akan bisa meningkatkan kemampuan yang dimiliki dengan cara lebih mudah pastinya.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row">
+
+                                    <div class="p-4 align-self-end">
+                                        <p> Programmer harus memiliki kemampuan logika yang bagus. Pasalnya ada sebuah alur logaritma yang harus diketahui seorang pencipta program. Pada saat menginput bahasa pemrograman atau coding, tentu semuanya harus dilakukan
+                                            dengan tepat. Dengan semakin mengasah kemampuan di bidang ini, maka kemampuan problem solver pun juga bisa kian meningkat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="card bg-primary text-center card-form">
+                                    <div class="card-body">
+                                        <h3 style="color: white;">Register</h3>
+                                        <p style="color: white;">Please fill out the form register</p>
+                                        <form>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control form-control-lg" placeholder="username">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="Password" class="form-control form-control-lg" placeholder="Password">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="Password" class="form-control form-control-lg" placeholder="Confirm Password">
+                                            </div>
+                                            <input type="submit" value="Register" class="btn btn-outline-light btn-block">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+    </header>
+
+
+
+    <div>
+        <br>
+        <h4 class="display-4 fw-normal" style="text-align:center">Daftar Learning Path </h4>
+        <br>
+        <br>
+        <ul class="list-unstyled">
+            <li class="media">
+                <img class="mr-3" src="g/py.jpg" alt="Generic placeholder image" width="250px" height="200px">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1" id="py">Pentingnya Belajar Python</h5>
+                    Efektivitas Python cukup terbukti dengan banyaknya jumlah pengguna Bahasa Pemrograman ini. Berbagai survei memasukkan Python dalam top-3 sebagai bahasa dengan penggunaan terbanyak, bersaing dengan Java dan PHP. Python dapat digunakan dalam mengakomodasi
+                    berbagai gaya pemrograman, termasuk structured, prosedural, berorientasi-objek, maupun fungsional. Python juga dapat berjalan pada berbagai sistem operasi yang tersedia. Beberapa pemanfaatan bahasa Python di antaranya: Web development
+                    (server-side), Software development, Mathematics & data science, Machine learning, System scripting. Internet of Things (IoT) development.
+                    <br>
+                    <br>
+                    <br>
+                    <a class="btn btn-lg btn-primary">
+                        <p style="color: white;">Daftar sekarang !!!</p>
+                    </a>
+                </div>
+            </li>
+            <li class="media my-4">
+                <img class="mr-3" src="g/jsss.png" alt="Generic placeholder image" width="250px" height="200px">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1" id="js">Kenapa JavaScript Penting</h5>
+                    Alasan utamanya karena JavaScript merupakan bahasa yang penting untuk Anda kuasai jika ingin menjadi web developer, baik itu front-end maupun back-end. Berikut ini adalah beberapa kelebihan dari JavaScript yang dapat Anda pertimbangkan sebelum mulai mempelajari
+                    JavaScript: JavaScript bahasa yang versatile JavaScript bisa berjalan di lingkungan browser, server, bahkan desktop. Artinya, jika Anda bisa menguasai bahasa ini, maka skill Anda bisa digunakan di mana pun. Mudah dipelajari oleh pemula
+                    JavaScript termasuk salah satu bahasa pemrograman yang ramah bagi pemula. Anda tidak perlu menginstal software dan lingkungan pengembangan lain yang rumit untuk memulai membuat program dengan JavaScript. Cukup dengan browser Anda sudah
+                    bisa menulis kode JavaScript dan menjalankannya sekaligus.
+
+
+                    <br>
+                    <br>
+                    <br>
+                    <a class="btn btn-lg btn-primary">
+                        <p style="color: white;">Daftar sekarang !!!</p>
+                    </a>
+                </div>
+            </li>
+            <li class="media">
+                <img class="mr-3" src="g/Android-dev-415x330.jpg" alt="Generic placeholder image" width="250px" height="200px">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1" id="android">Kenapa harus Belajar menjadi Android Developer</h5>
+                    Android merupakan sistem operasi mobile dengan pengguna terbesar di Indonesia, yakni sekitar 90%. Karena itulah banyak perusahaan yang membuat versi Android-nya supaya lebih dekat dengan pelanggannya, seperti Youtube, Facebook, dan Twitter. Perusahaan
+                    kecil pun turut membutuhkan aplikasi Android untuk menyelesaikan masalah yang ada. Ini juga menandakan bahwa kebutuhan akan Android developer semakin meningkat. Tak heran, profesi Android developer merupakan 1 dari 5 profesi yang paling
+                    diincar perusahaan. Sebagian besar masyarakat Indonesia memiliki handphone dengan Android sebagai sistem operasinya, ini merupakan potensi yang besar. Android terbukti menjadi solusi untuk permasalahan yang ada di masyarakat, sehingga
+                    bisa bermanfaat lebih luas. Banyak perusahaan yang membutuhkan Android Developer namun resource yang ada masih sangat sedikit, bahkan dinyatakan darurat. Menjadi Android Developer merupakan salah satu pekerjaan yang bisa dilakukan
+                    secara freelance, sehingga waktunya bisa lebih fleksibel. Android memiliki potensi yang besar untuk menghasilkan uang, seperti melalui iklan Admob, In-App purchase dan membuat proyek aplikasi.
+
+                    <br>
+                    <br>
+                    <br>
+                    <a class="btn btn-lg btn-primary">
+                        <p style="color: white;">Daftar sekarang !!!</p>
+                    </a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+
+
+
+    <header class="p-3 bg-dark text-black-50">
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal" style="color: white;" id="layanan">Silahkan Beli</h1>
+            <p class="fs-5 text-muted" style="color: white;">Silahkan ambil promo terbatas dan segera nikmati akses belajar dari kami</div>
+
+
+        <main>
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Free</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Rp 0<small class="text-muted fw-light"></small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Akses layanan 1 bulan</li>
+                                <li>Layanan e book</li>
+                                <li>support 12 Jam</li>
+                                <li>Layanan Bantuan 6 Jam</li>
+                                <li>-</li>
+                                <li>-</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Coba Gratis</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Prenium</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Rp 6.00.000<small class="text-muted fw-light"></small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Akses layanan 6 bulan</li>
+                                <li>Layanan e book</li>
+                                <li>Vidio Belajar</li>
+                                <li>support 24 Jam</li>
+                                <li>Layanan Bantuan 24 Jam</li>
+                                <li>-</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Beli</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                        <div class="card-header py-3 text-white bg-primary border-primary">
+                            <h4 class="my-0 fw-normal">VIP</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">Rp 1.000.000<small class="text-muted fw-light"></small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Akses layanan 12 bulan</li>
+                                <li>Layanan e book</li>
+                                <li>Vidio Belajar</li>
+                                <li>support 24 Jam</li>
+                                <li>Layanan Bantuan 24 Jam</li>
+                                <li>bantuan penyaluran kerja</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Beli</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </header>
+
+
+    <div class="container">
+        <br>
+        <br>
+        <h3 id="tes">Testimoni Alumi</h3>
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="g/tes1.jpg" alt="">
+
+                            <div class="card-body">
+                                <p class="card-text">“Saya khusus mendedikasikan waktu saya untuk belajar ngoding. Dibelajarnya step by step, library-nya up-to-date. Kalau ada eror, nggak bingung. Di sini saya juga belajar untuk nggak asal coding. CV pun jadi bagus. Saya
+                                    jadi percaya diri.”
+
+                                </p>
+                                <p>Product Engineer - Gojek.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="g/tes2.jpg" alt="">
+                            <div class="card-body">
+                                <p class="card-text">Belajar di platform ini tidak hanya ramah namun juga saya mendapatkan banyak sekali bimbingan saya belajar dari zero hinggha sekarang sudah mulai bekerja pengalaman belajar dari sini sungguh berguna sekali didalam sebuah
+                                    perusahaan
+                                </p>
+                                <p>Software engginer - shoppe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="g/tes3.jpg" alt="">
+                            <div class="card-body">
+                                <p class="card-text">Mengandalkan kuliah saja, tidak cukup. Dengan Belajar disini, saya mantap tinggalkan dunia gaming lantas belajar dunia Android yang ternyata menyenangkan. Yang nomor satu, platform mengajarkan ilmu berorientasi kerja. Kini
+                                    saya sangat terbantu dalam karir saya </p>
+                                <p>Android Developer - Moblile Legend</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <header class="p-3 bg-dark text-white">
+        <h3 id="a" style="text-align: center;">About</h3>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4>Website dibuat untuk tugas kuliah</h4>
+                    <br>
+
+                    <p>Saya meminta maaf jika didalam website terdapat gambar yang saya ambil tampa izin terlebih dahulu,pembuatan website ini tujuanya hanya untuk pembelajaran saja tidak bermatsut apupun</p>
+                </div>
+                <div class="col order-5">
+                    <h4>Website bertema pendidikan</h4>
+                    <br>
+                    <p>website ini dibangun dengan tema pembelajaran atau belajar online yang diharapkan menarik peminat atau orang orang belajar koding yang baik dan ramah akan pengguna serta disalurkanya untuk siap kerja dan menghadapi tantangan pekerjaan</p>
+                </div>
+                <div class="col order-1">
+                    <h4>Riwayat Pembuat</h4>
+                    <br>
+                    <p>Panggil saja Hendra ,ia merupakan seorang Mahasiswa Di Institut Teknologi Padang.lahir diTulungagung Jawa Timur yang mempunyai Cita cita yaitu menjadi seorang pengajar dan Selelah Lulus dari Institut Teknologi Padang ingin melajutkan
+                        perkuliahanya Di Intitut Teknologi Bandung demi cita cinya jadi Seorang Pengajar </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header>
+        <div class="collapse bg-light" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4>Sekilas Tentang Penulis</h4>
+                        <figure class="figure">
+                            <img src="g/tentang.jpg" alt="..." width="200px" height="350px" class="img-fluid mb-3 rounded-circle">
+                            <figcaption class="figure-caption">hendra cahyo setiawan</figcaption>
+                        </figure>
+                        <p class="text-muted">Panggil saja hendra lahir di Tulungagung,jawatimur yang sekarang sedang melanjutkan pendidikan disalah satu kampus yang berada di padang,iyaa di padang yaitu di Institut teknologi padang dan kelak iya setelah lulus dari kampus
+                            tersebut ingin melanjutkan studnya atau mau melanjutkan disalah satu universitas di bandung yang iya,karena iya sangat tertarik pada bidang AI
+                        </p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4>Contact Me</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.instagram.com/bi.ruu_/">Follow on Instagram</a></li>
+                            <li><a href=https://www.facebook.com/hendra.setyawan.7165331>Like on Facebook</a></li>
+                            <li><a href=https://mail.google.com/mail/u/0/#inbox>Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <h1 id="penulis"></h1>
+                    <strong>Hendra Cahyo Setiawan</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+        </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>
